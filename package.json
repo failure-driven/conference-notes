@@ -1,0 +1,21 @@
+{
+  "name": "conferences-2023",
+  "version": "1.0.0",
+  "description": "A review of all the conferences in 2023",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/failure-driven/conferences-2023.git"
+  },
+  "homepage": "https://github.com/failure-driven/conferences-2023#readme",
+  "devDependencies": {
+    "parcel": "^2.9.1"
+  },
+  "dependencies": {
+    "reveal.js": "^4.5.0"
+  }
+}
