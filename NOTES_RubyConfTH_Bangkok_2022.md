@@ -2,6 +2,10 @@
 
 - 2 years in the making since 2019 RubyConfTH
 
+notes with images
+
+https://failure-driven.com/post/2022-12-15-ruby-conf-thailand-conference-notes/
+
 ## Day 1 Friday 9th December
 
 - https://rubyconfth.com/schedule/#day-1
@@ -11,8 +15,8 @@ Nate is a Rails performance expert. He’s the author of several books, and he
 also maintains the Puma web server project.
 Nate Berkopec @nateberkopec
 
-![will let you name next puma release](https://failure-driven.com/images/RubyConfTH-bangkok-2022/01_nate_puma/1_will_let_you_name_next_puma_release.jpg)
-![main_reqeust_response_classes](https://failure-driven.com/images/RubyConfTH-bangkok-2022/01_nate_puma/2_main_request_response_classes.jpg)
+![will let you name next puma release](https://failure-driven.com/images/RubyConfTH-bangkok-2022/01_nate_puma/1_Nate_will_let_you_name_next_puma_release.jpg)
+![main request response classes](https://failure-driven.com/images/RubyConfTH-bangkok-2022/01_nate_puma/2_main_request_response_classes.jpg)
 ![good order of tags for oss contrib](https://failure-driven.com/images/RubyConfTH-bangkok-2022/01_nate_puma/3_good_order_of_tags_for_oss_contrib.jpg)
 
 - OSS - Rails to get best review of  your code
@@ -49,14 +53,14 @@ Nate Berkopec @nateberkopec
     - bug-fix
     - finally features
     - Good OSS strategy
-![will let you name next puma release](https://failure-driven.com/images/RubyConfTH-bangkok-2022/01_nate_puma/3_good_order_of_tags_for_oss_contrib.jpg)
+![good order of tags for oss contrib](https://failure-driven.com/images/RubyConfTH-bangkok-2022/01_nate_puma/3_good_order_of_tags_for_oss_contrib.jpg)
   - * wroking with ruby core?? can? Rack speck Sockets
   - Chris Seeaton memorial
     - plain language academic
     - infinite patience
     - mission to make languages fast
 
-![will let you name next puma release](https://failure-driven.com/images/RubyConfTH-bangkok-2022/01_nate_puma/4_chris_seaton_memorial.jpg)
+![Chris Seaton memorial](https://failure-driven.com/images/RubyConfTH-bangkok-2022/01_nate_puma/4_chris_seaton_memorial.jpg)
 
 > A Rails performance guidebook: from 0 to 1B requests/day
 > Cristian is a software engineer in love with Ruby. He has been working with Rails since the release of Rails 3, more than 10 years ago. Currently, he leads performance optimization efforts at Zendesk as a Group Tech Lead.
@@ -162,9 +166,9 @@ https://rubyconfth.com/schedule/#day-2
 - force_ruby_platform true
 - supports Java & Ruby
 - Rookout is a gem
-{{< highlight bash >}}
+```
 gem install rookout
-{{< / highlight >}}
+```
 - TracePoints - is a ruby API for debugging
 - Jruby behind in TracePoints API
 - cannot specifiy line
@@ -287,7 +291,7 @@ missed this one but got an image
 
 and the binary on the <span style="font-size: 50px">💩</span> above ...
 
-{{< highlight ruby >}}
+```
 [
   0b01100011, 0b01101111,
   0b01100100, 0b01100101,
@@ -297,7 +301,7 @@ and the binary on the <span style="font-size: 50px">💩</span> above ...
 ].map(&:chr).join
 
 "code smell"
-{{< / highlight >}}
+```
 
 > Keynote: YJIT's Three Languages: the Fun of Code that Writes Code
 > Noah spent many years charting exactly how fast Ruby is for various tasks, and continues this work at speed.yjit.org. On the YJIT team, he bothers younger, more vigorous programmers with questions like, “would you say five warmup iterations are enough if we set this parameter?”
@@ -316,7 +320,7 @@ also some recent benchmarks https://speed.yjit.org/
 
 attempted with
 
-{{< highlight bash >}}
+```
 cat a.rb
 
   ary = ""
@@ -332,7 +336,7 @@ ruby --yjit a.rb  21.42s user 0.30s system 98% cpu 22.022 total
 
 ruby a.rb         21.36s user 0.28s system 98% cpu 21.942 total
 ruby a.rb         21.37s user 0.29s system 98% cpu 21.953 total
-{{< / highlight >}}
+```
 
 the wrap
 
@@ -340,5 +344,3 @@ the wrap
 ## Hallway track RubyConfTH
 
 ![will let you name next puma release](https://failure-driven.com/images/RubyConfTH-bangkok-2022/21_after_parties)
-
-{{< load-photoswipe >}}
