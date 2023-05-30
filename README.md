@@ -46,7 +46,7 @@ The conferences covered are:
 talk will be anywhere from 10min - 40min and include some audience interaction
 and games if we go for the longer version
 
-### What I can delivelr
+### What I can deliver
 
 - Who am I
     - interactive code FTW
@@ -109,4 +109,13 @@ and games if we go for the longer version
     - recurring themes
         - WebAuthen passkeys
         - RailsEngines (special mention and recurring theme), Atlanta modular monolith
+
+
+#### Code Samples
+
+* [demo/fast_sql](demo/fast_sql)
+* [demo/open_telemetry](demo/open_telemetry)
+* [demo/capybara_scrape](demo/capybara_scrape)
+* [demo/pass_key](demo/pass_key)
+* [demo/picoruby_keyboard](demo/picoruby_keyboard)
 
