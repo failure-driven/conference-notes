@@ -25,3 +25,5 @@ async function signUp() {
       publicKey: publicKeyCredentialCreationOptions
   });
 }
+sayHi();
+signUp();
