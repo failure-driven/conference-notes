@@ -56,15 +56,19 @@ and games if we go for the longer version
             - https://sessionize.com/selena-small/
             - https://sessionize.com/michael-milewski/
         - and papercall process
+            - https://www.papercall.io/submissions
         - take a look at https://rubyconferences.org/
     - criteria
         - get accepted, does it pay, go ✅
     - drivers
         1. swag,
+           ![swag](https://media4.giphy.com/media/11DRQ1VQ5p5iPm/giphy.gif)
         1. acceptance via CFP,
         1. credibility from talking
         1. reduce decissions around where to travel
-    - underlying drivers
+        1. party 🎉
+            - https://failure-driven.com/post/2022-12-15-ruby-conf-thailand-conference-notes/
+   - underlying drivers
         1. actually completing things
         1. so what is new in the community
         1. be a better programmer - more completion, more experience, wider
@@ -79,43 +83,166 @@ and games if we go for the longer version
     1. RailsConf Atlanta 2023
     1. RubyKaigi Matsumoto 2023
     1. ReactSummit Amsterdam | Remote 2023
-    1. NDC Copenhagen
-- bit win being quoted by others - image
+    1. NDC Copenhagen 2023
+- big win being quoted by others
+    - ![Infobit shift Miami quote](./images/infobit_shift_miami_quote.jpg)
+    - [![Infobit shift Miami - shipping software faster](
+      http://img.youtube.com/vi/D8rVlEQrv88/0.jpg)](
+      https://www.youtube.com/watch?v=D8rVlEQrv88&t=32358s)
+    - via https://twitter.com/saramic/status/1661189417736740868
 - had to even say NO - CPP North, RustConf Albuquerque and a few others
-- go check out the repo for all the notes and links to videos etc
-    - code samples
-        - Bangkok - roda, sql thing, learning rails
-          ```
-            sql = "INSERT INTO inbound_jobs (status, body, created_at, updated_at)
-                SELECT 'pending', random()*80, ts, ts
-                FROM generate_series(
-                  TIMESTAMP '2023-01-01 00:00:00',
-                  TIMESTAMP '2024-01-01 00:00:00',
-                  INTERVAL '5 minutes') as g1(ts);"
-            ActiveRecord::Base.connection.execute(sql)
-          ```
-        - Melbourne - making it rain GIF, async
-        - programmable - capybara script, OpenTelemetry
-        - ReactMiami - webAuthen demo?
-        - RailsAtlanta - race condition demo?
-        - RubyKaigi - keyboard, secial characters, utf-8, our gif
-    - list of must watch
-        - Bangkok: roda, puma
-        - Melbourne: async, sallary, hanami, search party
-        - Programmable: WebAuthen (recuring theme)
-        - ReactMiami - uma
-        - RailsAtlanta - race conditions, big rewrites, mentorship, birthday cake, slowest app, webhooks, aaron patterson keynote
-        - RubyKaigi - samuel williams, 
-    - recurring themes
-        - WebAuthen passkeys
-        - RailsEngines (special mention and recurring theme), Atlanta modular monolith
 
+### Recurring themes
 
-#### Code Samples
+* Speed of SQL
+* WebAuthn and PassKeys
+* Rails modularisation
+* AI Pair programming
+* All things cloud
 
-* [demo/fast_sql](demo/fast_sql)
+### Code Samples
+
+* ✅ [demo/fast_sql](demo/fast_sql)
 * [demo/open_telemetry](demo/open_telemetry)
 * [demo/capybara_scrape](demo/capybara_scrape)
-* [demo/pass_key](demo/pass_key)
-* [demo/picoruby_keyboard](demo/picoruby_keyboard)
+* [demo/race_condition](demo/race_condition)
+* ✅ [demo/special_characters](demo/special_characters)
+* ✅ [demo/pass_key](demo/pass_key)
+* ✅ [demo/picoruby_keyboard](demo/picoruby_keyboard)
+
+### Must Watch List
+
+list of must watch
+
+#### RubyConfTH Bangkok
+
+[![Keynote: A Beginner's Guide to Puma Internals Slides Video](
+  http://img.youtube.com/vi/w4X_oBuPmTM/0.jpg)](
+  https://youtu.be/w4X_oBuPmTM)
+
+Nate Berkopec @nateberkopec
+
+---
+
+[![Roda: Simplicity, Reliability, Extensibility, Performance](
+  http://img.youtube.com/vi/9fukis_VHl4/0.jpg)](
+  https://youtu.be/9fukis_VHl4)
+
+Jeremy Evans @jeremyevans0
+
+---
+
+[![Dissecting Rails - a different approach to learning Rails](
+  http://img.youtube.com/vi/gXwRs-FwcmE/0.jpg)](
+  https://youtu.be/gXwRs-FwcmE)
+
+Ratnadeep Deshmane @rtdp
+
+Content is super valuable here for people who want to understand better how
+rails works by understanding it's parts, in particular:
+
+- rake
+- rack
+- ActiveSupport
+- hash_with_indifferent_access gotchas
+- ActiveRecord
+- ActiveModel
+- ActiveMailer - running as standalone mailer
+- ActiveJob
+- templates: ERB
+- Parts that are too intertwind to run individually (learn them in rails):
+    - ActionCable,
+    - ActionVeiew,
+    - ActionController
+- DSLs in rails/ruby - RSpec, Routes
+- look at route alternatives: sinatra/hanami/Roda
+
+#### RubyConfAU Melbourne
+
+[!["Asynchronous Rails" - Samuel Williams (RubyConf AU 2023)](
+  http://img.youtube.com/vi/9tOMD491mFY/0.jpg)](
+  https://youtu.be/9tOMD491mFY)
+
+[!["A People Pleasers Guide to Salary Negotiation" - Colleen Lavin (RubyConf AU 2023)](
+  http://img.youtube.com/vi/4EoMYQ6fmss/0.jpg)](
+  https://youtu.be/4EoMYQ6fmss)
+
+[!["Hanami 2: New Framework, New You" - Tim Riley (RubyConf AU 2023)](
+  http://img.youtube.com/vi/-B9AbFsQOKo/0.jpg)](
+  https://youtu.be/-B9AbFsQOKo)
+
+[!["Encrypted Search Party" - Fiona McCawley (RubyConf AU 2023)](
+  http://img.youtube.com/vi/lp0k94sUwI8/0.jpg)](
+  https://youtu.be/lp0k94sUwI8)
+
+#### Programmable
+
+[![Programmable 2023: The State of Passwordless Auth on the Web - Phil Nash](
+  http://img.youtube.com/vi/n_DmQPGjovg/0.jpg)](
+  https://youtu.be/n_DmQPGjovg)
+
+#### ReactMiami
+
+[![Una Kravets - The JavaScript is No JavaScript](
+  http://img.youtube.com/vi/aOB2f315Yu4/0.jpg)](
+  https://youtu.be/aOB2f315Yu4)
+
+#### RailsConf Atlanta
+
+Watch for the following appearing https://www.youtube.com/@RubyCentral/videos
+
+- Taylor’s Guide to Big Rewrites
+    - Andy Croll
+    - https://railsconf2023.sessionize.com/session/445621
+
+- How to Have The Slowest Rails App Ever
+    - Nate Berkopec
+    - https://railsconf2023.sessionize.com/session/451197
+
+- Mentorship in Three Acts
+    - Adam Cuppy
+    - https://railsconf2023.sessionize.com/session/452856
+
+- Rails as a piece of birthday cake
+    - Vladimir Dementyev
+    - https://railsconf2023.sessionize.com/session/452834
+
+- Off to the races
+    - Kyle d'Oliveira
+    - https://railsconf2023.sessionize.com/session/451054
+
+- Keynote - Aaron Patterson
+    - Aaron Patterson
+    - https://railsconf2023.sessionize.com/session/471439
+
+- Catch Me If You Can: Learning to Process Webhooks in Your Rails App
+    - Colin Loretz & Chris Oliver
+    - https://railsconf2023.sessionize.com/session/453439
+        - code https://github.com/colinloretz/railsconf-webhooks
+        - tutorial https://gorails.com/episodes/how-to-process-inbound-webhooks-railsconf-2023
+
+#### RubyKaigi
+
+probably watch for them being uploaded here
+    - https://www.youtube.com/channel/UCBSg5zH-VFJ42BGQFk4VH2A
+
+- Build a mini Ruby debugger in under 300 lines (EN)
+    - Stan Lo @_st0012
+    - https://rubykaigi.org/2023/presentations/_st0012.html#day2
+
+- Multiverse Ruby (JA)
+    - Chris Salzberg @shioyama
+    - https://rubykaigi.org/2023/presentations/shioyama.html#day2
+
+- The Second Oldest Bug (EN)
+    - Jeremy Evans @jeremyevans0
+    - https://rubykaigi.org/2023/presentations/jeremyevans0.html#day2
+
+- Unleashing the Power of Asynchronous HTTP with Ruby (EN)
+    - Samuel Williams @ioquatix
+    - https://rubykaigi.org/2023/presentations/ioquatix.html#day3
+
+### Thank You
+
+![this repo](./images/bit.ly_FDconf2023.png)
 
