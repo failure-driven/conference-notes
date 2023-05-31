@@ -120,3 +120,18 @@ puts(given_signature)'
 ```
 
 I get the wrong answer
+
+## One more thing
+
+```
+# special e (U+0435) and i (U+0435)
+# zero width space (U+200B)
+# ideographic space (U+3000)
+
+# RLO: 202E;RIGHT-TO-LEFT OVERRIDE
+# LRE: U+202A: LEFT-TO-RIGHT EMBEDDING
+# PDF: U+202C: POP DIRECTIONAL FORMATTING
+```
+
+https://www.sw.it.aoyama.ac.jp/2023/pub/Ruby%ea%9d%a9du%d0%af/
+
