@@ -34,3 +34,6 @@ const credential = await navigator.credentials.create({
     publicKey: publicKeyCredentialCreationOptions
 });
 ```
+
+and now for a demo https://conferences-2023-pass-key-demo.netlify.app/
+
