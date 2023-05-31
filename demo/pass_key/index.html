@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Pass Keys</title>
+	</head>
+	<body>
+    <button onClick="javascript:sayHi()">say hi</button>
+    <button onClick="javascript:signUp()">sign up</button>
+		<script>
+      function sayHi() {
+        console.log("hi");
+      }
+      async function signUp() {
+        const publicKeyCredentialCreationOptions = {
+            challenge: Uint8Array.from('randomStringFromServer', c => c.charCodeAt(0)),
+            rp: {
+                name: "Duo Security",
+                id: window.location.host,
+            },
+            user: {
+                id: Uint8Array.from("UZSL85T9AFC", c => c.charCodeAt(0)),
+                name: "some+email@example.com",
+                displayName: "Your Name",
+            },
+            pubKeyCredParams: [{alg: -7, type: "public-key"}],
+            authenticatorSelection: {
+                authenticatorAttachment: "cross-platform",
+            },
+            timeout: 60000,
+            attestation: "direct"
+        };
+
+        const credential = await navigator.credentials.create({
+            publicKey: publicKeyCredentialCreationOptions
+        });
+      }
+		</script>
+	</body>
+</html>

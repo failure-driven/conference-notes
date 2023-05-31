@@ -1,0 +1,13 @@
+{
+  "name": "pass_key",
+  "version": "1.0.0",
+  "description": "Demo of pass key",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel index.html --https",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.1"
+  }
+}
