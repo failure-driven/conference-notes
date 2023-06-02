@@ -7,8 +7,17 @@
 		<title>Pass Keys</title>
 	</head>
 	<body>
+    <div id="is-verified">loading ...</div>
     <button onClick="javascript:sayHi()">say hi</button>
     <button onClick="javascript:signUp()">sign up</button>
+    <button onClick="javascript:signIn()">sign in</button>
+    <button onClick="javascript:clearStorage()">clear storage</button>
+    <br />
+    <textarea
+      id="local-storage-contents"
+      rows="10"
+      cols="80"
+    ></textarea>
     <script type="text/javascript" src="index.js"></script>
 	</body>
 </html>
