@@ -102,17 +102,18 @@ Trailblazers
         - https://github.com/ruby-passkeys/devise-passkeys-template
 
 💡Idea
-    - how hard would it be to create a virtual USB/FIDO device in ruby to
-      breakdown the passkey process
-    - https://github.com/bulwarkid/virtual-fido
-        - used in https://bulwark.id/
-        - no MacOS support "yet"
-        - Virtual FIDO creates a USB/IP server over local TCP to attach a
-          virtual USB device. This USB device then emulates the USB/CTAP
-          protocols to provide U2F/FIDO services to the host computer. In the
-          demo, credentials created by the virtual device are stored in a local
+- how hard would it be to create a virtual USB/FIDO device in ruby to
+  breakdown the passkey process
+- https://github.com/bulwarkid/virtual-fido
+    - used in https://bulwark.id/
+    - no MacOS support "yet"
+    - Virtual FIDO creates a USB/IP server over local TCP to attach a
+      virtual USB device. This USB device then emulates the USB/CTAP
+      protocols to provide U2F/FIDO services to the host computer. In the
+      demo, credentials created by the virtual device are stored in a local
+      - for USB/IP https://github.com/jiegec/usbip
           file, and approvals are done using the terminal.
-    - for USB/IP https://github.com/jiegec/usbip
+
 ---
 
 ### Rails Performance Monitoring 101: A Primer for Developers
