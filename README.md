@@ -12,6 +12,7 @@ A review of all the conferences in 2023
 
 all my "raw" notes with a lot of links to videos etc
 
+- [NOTES_RubyConfTH_Bangkok_2023.md](NOTES_RubyConfTH_Bangkok_2023.md)
 - [NOTES_RubyKaigi_Matsumoto_2023.md](NOTES_RubyKaigi_Matsumoto_2023.md)
 - [NOTES_RailsConf_Atlanta_2023.md](NOTES_RailsConf_Atlanta_2023.md)
 - [NOTES_ReactMiami_Miami_2023.md](NOTES_ReactMiami_Miami_2023.md)
@@ -33,7 +34,7 @@ In this talks I will share:
 
 The conferences covered are:
 
-* RubyConfTH Bangkok 2022
+* RubyConfTH Bangkok 2022 & 2023
 * RubyConfAU Melbourne 2023
 * Programmable Melbourne/Sydney 2023
 * TestBash Spring London | Remote 2023
