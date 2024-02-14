@@ -12,6 +12,12 @@ A review of all the conferences in 2023
 
 all my "raw" notes with a lot of links to videos etc
 
+**2024**
+
+- [NOTES_NDC_Sydney_2024.md](NOTES_NDC_Sydney_2024.md)
+
+**2023**
+
 - [NOTES_RubyConfTH_Bangkok_2023.md](NOTES_RubyConfTH_Bangkok_2023.md)
 - [NOTES_RubyKaigi_Matsumoto_2023.md](NOTES_RubyKaigi_Matsumoto_2023.md)
 - [NOTES_RailsConf_Atlanta_2023.md](NOTES_RailsConf_Atlanta_2023.md)
