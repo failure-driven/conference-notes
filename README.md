@@ -14,10 +14,14 @@ all my "raw" notes with a lot of links to videos etc
 
 **2024**
 
+- [NOTES_Programmable_Melbourne_2024.md](NOTES_Programmable_Melbourne_2024.md)
+- [NOTES_DDD_Melbourne_2024.md](NOTES_DDD_Melbourne_2024.md)
 - [NOTES_NDC_Sydney_2024.md](NOTES_NDC_Sydney_2024.md)
 
 **2023**
 
+- lastConf
+- [NOTES_OpenConf_Athens.md](NOTES_OpenConf_Athens.md)
 - [NOTES_RubyConfTH_Bangkok_2023.md](NOTES_RubyConfTH_Bangkok_2023.md)
 - [NOTES_RubyKaigi_Matsumoto_2023.md](NOTES_RubyKaigi_Matsumoto_2023.md)
 - [NOTES_RailsConf_Atlanta_2023.md](NOTES_RailsConf_Atlanta_2023.md)
