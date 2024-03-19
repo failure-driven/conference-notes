@@ -47,9 +47,11 @@ Scott Shaw
       around [Beyond the DORA metrics: Measuring engineering
       excellence](https://www.thoughtworks.com/en-in/insights/podcasts/technology-podcasts/beyond-dora-metrics-measuring-engineering-excellence)
 
-![](images/2024_programmable/20240319_scott_shaw_component_view_of_platform.jpg){: width="480"}
-![](images/2024_programmable/20240319_scott_shaw_measuring_your_success_transparently.jpg)
-![](images/2024_programmable/20240319_scott_shaw_platform_paradigm.jpg)
+<div style="width: 100%; display: flex; justify-content: flex-between;">
+<img src="images/2024_programmable/20240319_scott_shaw_component_view_of_platform.jpg" width="330">
+<img src="images/2024_programmable/20240319_scott_shaw_measuring_your_success_transparently.jpg" width="330">
+<img src="images/2024_programmable/20240319_scott_shaw_platform_paradigm.jpg" width="330">
+</div>
 
 ---
 
@@ -79,7 +81,7 @@ Mirjam Uher
         - DSL - SQL
         - Logical Programming - Prolog
 
-![](images/2024_programmable/20240319_programmable_Mirjam_paradigm_summary.jpg)
+<img src="images/2024_programmable/20240319_programmable_Mirjam_paradigm_summary.jpg" width="480">
 
 - certainly inspired me to take another look at:
     - lua
@@ -131,7 +133,7 @@ pp (1..5).select { |e|
 # and e == 4 flips it OFF
 ```
 
-![](images/2024_programmable/20240319_pre_ascii_encoding_in_c.jpg)
+<img src="images/2024_programmable/20240319_pre_ascii_encoding_in_c.jpg" width="480">
 
 - https://github.com/glasnt/wat-references
 - https://glasnt.com/blog/
@@ -169,17 +171,22 @@ Engagement Lead @Microsoft
 
 and ofcourse there was swag and games
 
-![](images/2024_programmable/20240319_programmable_ippon_crossword_puzzle.jpg)
+<img src="images/2024_programmable/20240319_programmable_ippon_crossword_puzzle.jpg" width="480">
 
 https://crossword.ippon.dev/crossword
 
-![](images/2024_programmable/20240319_ippon_crossword_1.png)
-![](images/2024_programmable/20240319_ippon_crossword_2.png)
-![](images/2024_programmable/20240319_ippon_crossword_3.png)
+<div style="width: 100%; display: flex; justify-content: flex-between;">
+  <img src="images/2024_programmable/20240319_ippon_crossword_1.png" width="330">
+  <img src="images/2024_programmable/20240319_ippon_crossword_2.png" width="330">
+  <img src="images/2024_programmable/20240319_ippon_crossword_3.png" width="330">
+</div>
 
-![](images/2024_programmable/20240319_ippon_the_answers.jpg)
-![](images/2024_programmable/20240319_ippon_success_qr_1.jpg)
-![](images/2024_programmable/20240319_ippon_success_qr_2.jpg)
-![](images/2024_programmable/20240319_ippon_success_qr_3.jpg)
+<img src="images/2024_programmable/20240319_ippon_the_answers.jpg" width="480">
+
+<div style="width: 100%; display: flex; justify-content: flex-between;">
+  <img src="images/2024_programmable/20240319_ippon_success_qr_1.jpg" width="330">
+  <img src="images/2024_programmable/20240319_ippon_success_qr_2.jpg" width="330">
+  <img src="images/2024_programmable/20240319_ippon_success_qr_3.jpg" width="330">
+</div>
 
 ![](images/2024_programmable/20240319_ippon_success.jpg)
