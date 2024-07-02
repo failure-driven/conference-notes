@@ -251,6 +251,49 @@ _Scott Hanselman_
   https://ndcsydney.com/agenda/opening-keynote-hanselman/3fad6caa73ef
 )
 
+a great talk about AI and some of the tools coming down the pipe
+
+**Iron Man or Ultron: Is AI here to help us or hurt us? - Scott Hanselman - NDC
+Sydney 2024 - NDC Conferences**
+
+[![
+    Iron Man or Ultron: Is AI here to help us or hurt us? - Scott Hanselman -
+    NDC Sydney 2024 - NDC Conferences
+](
+http://img.youtube.com/vi/qiiquQTfUvE/0.jpg
+)](https://youtu.be/qiiquQTfUvE)
+
+* setting the scene of AI and how it fits into the broader population
+* using https://platform.openai.com/playground/chat - a really good demo to
+  help understand statistical next token
+* how to fine tune things like "full spectrum" and "temperature" settings
+* the importance of context
+* a great demo of using voice to input data - I am starting to use this a lot
+  more these days (taking notes whilst on a walk)
+* touches on "the new interface" for AI that is yet to be developed
+* they microwave their tea water because 110V in US
+* the importance of the system prompt (context)
+* copilot features
+    * calls out references
+    * not in talk but you can also set file with `#file` and or `@workspace` to
+      set
+      the context
+    * how to get around the boundaries of copilot to do more than programming
+      tasks or it's guard rails
+* GPT-3 families - sizes
+* using https://lmstudio.ai/ to work with a local model running on something
+  like ollama
+* the idea of running your own model
+* using AI for chat bots is lazy usage
+    * instead some ideas demonstrating smart components
+      https://github.com/dotnet-smartcomponents/smartcomponents
+    * build natural language intervaces using types
+      https://github.com/microsoft/TypeChat
+* running ollama locally - and why use a smaller model
+* mention of a good book [The Quantified Worker: Law and Technology in the
+  Modern Workplace Paperback – 11 May 2023 by Ifeoma Ajunwa (Author)
+  ](https://www.amazon.com.au/Quantified-Worker-Technology-Modern-Workplace/dp/131663695X)
+
 ### Learning Rust the wrong way.
 _Ólafur Waage_
 
