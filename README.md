@@ -1,6 +1,6 @@
-# Conferences 2023
+# Conferences 2023 - 2025
 
-A review of all the conferences in 2023
+A review of all the conferences in 2023 - 2025
 
 * as seen on [Melbourne Ruby](
   https://www.meetup.com/ruby-on-rails-oceania-melbourne/events/msjwdtyfchbpc/)
@@ -11,6 +11,12 @@ A review of all the conferences in 2023
 ## Notes
 
 all my "raw" notes with a lot of links to videos etc
+
+**2025**
+
+- [NOTES_NDC_Melbourne_2025.md](./NOTES_NDC_Melbourne_2025.md)
+- [NOTES_Programmable_Melbourne_2025.md](
+    ./NOTES_Programmable_Melbourne_2025.md)
 
 **2024**
 
